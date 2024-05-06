@@ -508,7 +508,7 @@ class BudgetTracker:
     @classmethod
     def main(cls) -> None:
         """Основная функция для работы с клиентом"""
-        print('Клиент запущен! Введите "help" для просмотра всех комманд')
+        print('Добрый день! Введите "help" для просмотра всех комманд')
         while True:
             input_: str = input('Введите комманду: ')
             try:
